@@ -1,0 +1,43 @@
+import conversion_functions as conversion_functions
+#import time
+base_num = float(0)
+result = float(0)
+
+#User Interface - Input
+
+print("----------------------------------")
+print("|Welcome to the Kitchen Converter|")
+print("----------------------------------")
+#time.sleep(1)
+print("1. Cups to Ounces")
+#time.sleep(1)
+print("2. Ounces to Cups")
+#time.sleep(1)
+print("3. Tablespoons to Teaspoons")
+#time.sleep(1)
+print("4. Teaspoons to Tablespoons")
+#time.sleep(1)
+print("5. Kilograms to Pounds")
+#time.sleep(1)
+print("6. Pounds to Kilograms")
+#time.sleep(1)
+print("7. Grams to Ounces")
+#time.sleep(1)
+print("8. Ounces to Grams")
+#time.sleep(1)
+print("")
+#time.sleep(2)
+u_input = input("Choose a conversion: ")
+
+
+#Logic
+
+output = conversion_functions.converter(u_input, base_num, result)
+print(output)
+
+
+
+
+
+
+#Output
