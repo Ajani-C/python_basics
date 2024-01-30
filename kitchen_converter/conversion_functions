@@ -1,0 +1,47 @@
+def converter(u_input, base_num, result):
+    if u_input == "1":
+        base_num = float(input("Enter the cups: "))
+        result = base_num*8
+        output = "{:.2f} cups is {:.2f} ounces.".format(base_num, result)
+
+    elif u_input == "2":
+        base_num = float(input("Enter the ounces: "))
+        result = base_num/8
+        output = "{:.2f} ounces is {:.2f} cups.".format(base_num, result)
+
+    elif u_input == "3":
+        base_num = float(input("Enter the tablespoon: "))
+        result = base_num*3
+        output = "{:.2f} tablespoons is {:.2f} teaspoons.".format(base_num, result)
+
+    elif u_input == "4":
+        base_num = float(input("Enter the teaspoon: "))
+        result = base_num/3
+        output = "{:.2f} teaspoons is {:.2f} tablespoons.".format(base_num, result)
+
+    elif u_input == "5":
+        base_num = float(input("Enter the kilograms: "))
+        result = base_num*2.20462
+        output = "{:.2f} kilograms is {:.2f} pounds.".format(base_num, result)
+
+    elif u_input == "6":
+        base_num = float(input("Enter the pounds: "))
+        result = base_num/2.20462
+        output = "{:.2f} pounds is {:.2f} kilograms.".format(base_num, result)
+
+    elif u_input == "7":
+        base_num = float(input("Enter the grams: "))
+        result = base_num/28.3
+        output = "{:.2f} grams is {:.2f} ounces.".format(base_num, result)
+
+    elif u_input == "8":
+        base_num = float(input("Enter the ounces: "))
+        result = base_num*28.3
+        output = "{:.2f} ounces is {:.2f} grams.".format(base_num, result)
+
+    else:
+        print("Enter a valid Operation")
+
+    return output
+
+
