@@ -6,6 +6,7 @@
 3 - Scissors
 """
 # Rock, Paper, Scissors Game against computer
+#Create a class
 
 # import random function
 import random
